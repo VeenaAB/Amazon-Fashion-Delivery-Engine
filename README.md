@@ -1,34 +1,19 @@
-# State Design Pattern - WordPlay
------------------------------------------------------------------------
------------------------------------------------------------------------
-## Description:
-    - The java build rotates each word of the sentense by index number of positions.
-    - Also returns two statistics: average number of words per sentense and avg word length.
+# Amazon-Fashion-Discovery-Engine
+Build a recommendation engine which suggests similar products (apparel) to the given product (apparel) in any e-commerce websites.
+## Statement
 
-Following are the commands and the instructions to run ANT on your project.
-#### Note: build.xml is present in wordPlay/src folder.
+Personalized product recommendations are the alternative way of navigating through the online shop. More people find products they need. Even if they didn’t think of them.
 
------------------------------------------------------------------------
-## Instruction to clean:
+Build a recommendation engine which suggests  similar products to the given product  in any e-commerce websites ex. Amazon.com, myntra.com etc.
 
-#### Command: ant -buildfile wordPlay/src/build.xml clean
+## Objective 
 
-Description: It cleans up all the .class files that were generated when you
-compiled your code.
+The recommendation engine, uses information about 1,80,000 products and  each product will have multiple features named
 
------------------------------------------------------------------------
-## Instruction to compile:
+1. Title of the product  
+2. Brand of the product
+3. Color of the product
+4. Type of the product
+5. Image of the apparel , etc...
 
-#### Command: ant -buildfile wordPlay/src/build.xml all
-
-Description: Compiles your code and generates .class files inside the BUILD folder.
-
------------------------------------------------------------------------
-## Instruction to run:
-
-#### Command: ant -buildfile wordPlay/src/build.xml run -Dinput="input.txt" -Doutput="output.txt" -Dmetrics="metrics.txt"
-
-Note: Arguments accept the absolute path of the files.
-
-
------------------------------------------------------------------------
+Data Source : amazon.com
